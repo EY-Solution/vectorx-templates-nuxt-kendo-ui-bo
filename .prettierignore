@@ -1,0 +1,5 @@
+*.md
+dist/
+.vscode/
+templates/
+node_modules/

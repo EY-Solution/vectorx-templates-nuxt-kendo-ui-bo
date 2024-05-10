@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.configPath": ".prettierrc",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+    "javascript.memoryLimit": 8192,
+    "editor.folding": true,
+    "typescript.tsserver.maxTsServerIdleTime": 600000,
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    "powermode.presets": "particles",
+    "powermode.combo.location": "off",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "volar.completion.preferredAttrNameCase": "auto-camel",
+    "vue.complete.casing.props": "autoCamel"
+  }
+}
