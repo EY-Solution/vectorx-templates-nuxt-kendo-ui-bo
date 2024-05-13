@@ -8,3 +8,4 @@
 *.exe binary
 *.xls binary
 *.xlsx binary
+*.tgz binary

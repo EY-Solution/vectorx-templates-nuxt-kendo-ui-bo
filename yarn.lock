@@ -4465,6 +4465,13 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
+auto-version-js@^0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/auto-version-js/-/auto-version-js-0.3.10.tgz#d037c7df225cb4f9089d08e695e1cd8fdf2fc34e"
+  integrity sha512-304kn/dgopVb4EnVkwy1PHAhEJwQrdDY22v/y4BoY27jXRp2FbE49bORdixtR65D7h8RFTjqrl4eKiUR3SpYzA==
+  dependencies:
+    pkg-dir "^4.2.0"
+
 autoprefixer@^10.4.19:
   version "10.4.19"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.19.tgz#ad25a856e82ee9d7898c59583c1afeb3fa65f89f"
