@@ -1804,7 +1804,7 @@
     error-stack-parser "^2.1.4"
     string-width "^4.2.3"
 
-"@nuxt/kit@3.11.2", "@nuxt/kit@^3.1.2", "@nuxt/kit@^3.10.2", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.9.0":
+"@nuxt/kit@3.11.2", "@nuxt/kit@^3.1.2", "@nuxt/kit@^3.10.2", "@nuxt/kit@^3.11.2", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0":
   version "3.11.2"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.11.2.tgz#dfc43c05992691bcd6aa58c14f88cf43e3abb788"
   integrity sha512-yiYKP0ZWMW7T3TCmsv4H8+jEsB/nFriRAR8bKoSqSV9bkVYWPE36sf7JDux30dQ91jSlQG6LQkB3vCHYTS2cIg==
@@ -3538,9 +3538,9 @@
     hookable "^5.5.3"
     unhead "1.9.10"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.4.tgz", "@vectorx/core@24.1.5-alpha.4":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.4.tgz#349b8105ca6bebd54b34d0fa0067480b93826db2"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.9.tgz", "@vectorx/core@24.1.5-alpha.9":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.9.tgz#cf51a51808ff450f77dcce70e319da309d6e2437"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3548,7 +3548,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.5-alpha.4"
+    "@vectorx/types" "24.1.5-alpha.9"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -3596,19 +3596,19 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.4.tgz":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.4.tgz#b3a25e2784ea7df2d3127a4020573f3818f476c8"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.9.tgz":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.9.tgz#3d436df24f3e311ae80f76db5c2a8fe7a8e7be70"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "^41.3.1"
     "@ckeditor/ckeditor5-font" "^41.3.1"
     "@ckeditor/ckeditor5-vue" "^5.0.1"
     "@types/ckeditor__ckeditor5-core" "^33.0.3"
-    "@vectorx/nuxt" "24.1.5-alpha.4"
+    "@vectorx/nuxt" "24.1.5-alpha.9"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.4.tgz":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.4.tgz#5af9dc796ac809e40cd94930959056b9ff7c4823"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.9.tgz":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.9.tgz#ab2e225049d14c06fc1cabf72934354bd528b082"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
     "@progress/kendo-drawing" "^1.20.1"
@@ -3634,22 +3634,22 @@
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.4.tgz":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.4.tgz#b4c096012f3a3d41604c193b8f75662ca63e2b83"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.9.tgz":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.9.tgz#c1af0e8b35aca6416e0ddf6433a0902f85bed289"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.5-alpha.4"
+    "@vectorx/nuxt" "24.1.5-alpha.9"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
     vuetify "^3.6.3"
     vuetify-nuxt-module "^0.13.5"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.4.tgz", "@vectorx/nuxt@24.1.5-alpha.4":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.4.tgz#5ad84947c0a0ed4e93043dd5107531579ba6a4a0"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.9.tgz", "@vectorx/nuxt@24.1.5-alpha.9":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.9.tgz#d4ca8d731f2e0dd6953ac49929265b0a6b4b60c9"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -3662,14 +3662,18 @@
     "@nuxt/webpack-builder" "3.11.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.5-alpha.4"
-    "@vee-validate/valibot" "^4.12.6"
-    "@vee-validate/yup" "^4.12.6"
-    "@vee-validate/zod" "^4.12.6"
+    "@vectorx/core" "24.1.5-alpha.9"
+    "@vee-validate/i18n" "^4.12.8"
+    "@vee-validate/nuxt" "^4.12.8"
+    "@vee-validate/rules" "^4.12.8"
+    "@vee-validate/valibot" "^4.12.8"
+    "@vee-validate/yup" "^4.12.8"
+    "@vee-validate/zod" "^4.12.8"
     "@vueuse/core" "10.9.0"
     "@vueuse/nuxt" "10.9.0"
     front-matter "^4.0.2"
     github-markdown-css "^5.5.1"
+    josa "^3.0.1"
     js-file-download "^0.4.12"
     nitropack "2.9.6"
     nuxt "3.11.2"
@@ -3685,35 +3689,56 @@
     vue-router "^4.3.2"
     vue-tsc "^2.0.14"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.4.tgz", "@vectorx/types@24.1.5-alpha.4":
-  version "24.1.5-alpha.4"
-  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.4.tgz#2c80f9ccc36c44d2a5ee346dfb8a3676c5f7a6b6"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.9.tgz", "@vectorx/types@24.1.5-alpha.9":
+  version "24.1.5-alpha.9"
+  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.9.tgz#cd2a55002248610cbe5dc91cfbc91947b171be90"
 
-"@vee-validate/valibot@^4.12.6":
-  version "4.12.7"
-  resolved "https://registry.yarnpkg.com/@vee-validate/valibot/-/valibot-4.12.7.tgz#9eaed3caf53d05a0d325db31a5cdf8e36b02c3d4"
-  integrity sha512-X4O3H0Cs4SqrWFCwG7b7xVLkHQvoEEFoPyPNY99bs+Fwtj4dbTSbqpzhM025MK7RG0RfRqxgJVLcc1IVNdK/TA==
+"@vee-validate/i18n@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/i18n/-/i18n-4.12.8.tgz#e6ac201821a4f552f76e58d7937fbb2cea257e34"
+  integrity sha512-Jl63ZUICt15GIDi+GIcdPRVIVcLJcVMApTnSprfs53BllXnxbq/A3QNo9wCbQk4bP3L/S3NcPoLBFEH6PQU65g==
+
+"@vee-validate/nuxt@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/nuxt/-/nuxt-4.12.8.tgz#90407cbcdf1336bd7ba2bdb7451bcc603d8a6b17"
+  integrity sha512-etB3bwfvA+gspw7ruN90m1IKG7ptyhLw+HqGzdttUakKG1yNpKzpwRDXIhHzHdf78MtbKk05qqtl5xMoPUGTHQ==
+  dependencies:
+    "@nuxt/kit" "^3.8.2"
+    local-pkg "^0.5.0"
+    vee-validate "4.12.8"
+
+"@vee-validate/rules@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.12.8.tgz#3644c8c054d354c04250850071a906f6b2d005bf"
+  integrity sha512-RisPzo+jGt0B0QTVhyZK5Pxb0Q6TESnS2rbR+CE3HRtJ+z0q5rkqkSIwvKrTKJFZpowJIoAHYS02jm5Pty5C3Q==
+  dependencies:
+    vee-validate "4.12.8"
+
+"@vee-validate/valibot@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/valibot/-/valibot-4.12.8.tgz#226b08eac625ab9690f94f21f29e0c0292624446"
+  integrity sha512-sRbaoKSZh0J/nRzrH4y/Se8sMllVImiP2KXxrFwc+xo0EbHfw4QqTESs6UHGtO8lQEKYj0aMDA+MAjVpnIyNaQ==
   dependencies:
     type-fest "^4.8.3"
     valibot "^0.30.0"
-    vee-validate "4.12.7"
+    vee-validate "4.12.8"
 
-"@vee-validate/yup@^4.12.6":
-  version "4.12.7"
-  resolved "https://registry.yarnpkg.com/@vee-validate/yup/-/yup-4.12.7.tgz#c760b7ae393cdb4382c44177ccb92875a4188ed6"
-  integrity sha512-Q9A2YqfJGRY9XXoqdvY5y/2ZteRizxDAGjOoxzjQPKHmNZbA99cD3qdzgJAxJxuMkBAYA2Jh7XDSlY/fMoOLSw==
+"@vee-validate/yup@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/yup/-/yup-4.12.8.tgz#b9a41ddb5315a1d5b9fef96629f8af5d733cb3de"
+  integrity sha512-0QNR2kcllSXoV4mtoY/XhMda87LDpuS2lq6vbVU94tn11tGHkwaGYPAaOqclc5zrkhRl3fANtc31NxnMYoejOA==
   dependencies:
     type-fest "^4.8.3"
-    vee-validate "4.12.7"
+    vee-validate "4.12.8"
     yup "^1.3.2"
 
-"@vee-validate/zod@^4.12.6":
-  version "4.12.7"
-  resolved "https://registry.yarnpkg.com/@vee-validate/zod/-/zod-4.12.7.tgz#835cfe6fd4f7c918e8164c8b35df0481404212ff"
-  integrity sha512-4VPly2tu9xpPP1onmDBOQPKAyivJ6j+1JF5YAXAf2ofoxfPAW2y8mBwe0zsKE1TAI8xyT9nkb2oWNzX1HrlPVw==
+"@vee-validate/zod@^4.12.8":
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/@vee-validate/zod/-/zod-4.12.8.tgz#c4c7e922f3513e22ed88754a3ee83c5391e75723"
+  integrity sha512-P+G8grCc5iN7FMfvLzVWoGKxamBd0EYgN/hXBmzgbJV7B7FGnQADlUIsqt4jM+oGacbFW12B56zSORaVy3Owqg==
   dependencies:
     type-fest "^4.8.3"
-    vee-validate "4.12.7"
+    vee-validate "4.12.8"
     zod "^3.22.4"
 
 "@vercel/nft@^0.26.4":
@@ -7883,6 +7908,18 @@ jiti@^1.20.0, jiti@^1.21.0:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.0.tgz#7c97f8fe045724e136a397f7340475244156105d"
   integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
 
+jongseong@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/jongseong/-/jongseong-0.4.2.tgz#5008c13332829257304c54641f550087d2f4caa9"
+  integrity sha512-wBNM0B48CgphzeIIGo4vFqrAg4wlxppj7fAMa7kZ2PGgwGzoheWxyiBhz4eIxUtlVPMk9gvUsSxG9pMsTyjfSw==
+
+josa@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/josa/-/josa-3.0.1.tgz#e1fa94fc7c78be1d81e965fec0ae43be0a1df352"
+  integrity sha512-naRZOzWy/02AbP5p4Tz4lj7wpIJ93+hPk/mne8yHCpT2UZglhh2BF0f/j7SIITqZpb834B0DZ0RjJCrKji3qOQ==
+  dependencies:
+    jongseong "^0.4.2"
+
 js-base64@^3.7.2:
   version "3.7.7"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.7.tgz#e51b84bf78fbf5702b9541e2cb7bfcb893b43e79"
@@ -11727,7 +11764,15 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vee-validate@4.12.7, vee-validate@^4.12.6:
+vee-validate@4.12.8:
+  version "4.12.8"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.12.8.tgz#e12c8e8239f75305dee2fc539660e9079803c8ec"
+  integrity sha512-A07rm3+y7SRk0CMD/O4nBT0nxtwjyfzGZwjEUDk18SxK0ZMzd4AFCzzdHlIiCE1QgHetxd0I3kVkZdN0GG0Oww==
+  dependencies:
+    "@vue/devtools-api" "^6.6.1"
+    type-fest "^4.8.3"
+
+vee-validate@^4.12.6:
   version "4.12.7"
   resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.12.7.tgz#9eb2ac9e5d6e3c8b4425db04f2ac7d30c1ff40a0"
   integrity sha512-1BGql4XNu/3TqHFjBLV6OrZ4fRteHXxRc9tLF5Q40IgIo1cwYEyaccC1AL3tdFUr2E3JsYhXbiEExoUSy4C9nA==
