@@ -3538,9 +3538,9 @@
     hookable "^5.5.3"
     unhead "1.9.10"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.10.tgz", "@vectorx/core@24.1.5-alpha.10":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.10.tgz#c4e2a384fc443f254bfacb49e3d91172b107a4a0"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.12.tgz", "@vectorx/core@24.1.5-alpha.12":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.12.tgz#53fb0c8825eb8b4102a1dbe778689039a5250f44"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3548,7 +3548,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.5-alpha.10"
+    "@vectorx/types" "24.1.5-alpha.12"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -3596,19 +3596,19 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.10.tgz":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.10.tgz#3f3032149ae91b95a43c63e4929e220c66e05088"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.12.tgz":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.12.tgz#f67a38878193aa099649366a24c90cde1cd2641c"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "^41.3.1"
     "@ckeditor/ckeditor5-font" "^41.3.1"
     "@ckeditor/ckeditor5-vue" "^5.0.1"
     "@types/ckeditor__ckeditor5-core" "^33.0.3"
-    "@vectorx/nuxt" "24.1.5-alpha.10"
+    "@vectorx/nuxt" "24.1.5-alpha.12"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.10.tgz":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.10.tgz#66afedac8e8713f2c839bcbe99a71df787eedc29"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.12.tgz":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.12.tgz#604a68f30e9be5c6d419767a41d84bdca43b10a4"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
     "@progress/kendo-drawing" "^1.20.1"
@@ -3634,22 +3634,22 @@
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.10.tgz":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.10.tgz#a1f370ac5d07df7726612f2574122556e590c533"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.12.tgz":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.12.tgz#33417dc2d5e870daaaac840623fb1006cf807dd2"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.5-alpha.10"
+    "@vectorx/nuxt" "24.1.5-alpha.12"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
-    vuetify "^3.6.3"
-    vuetify-nuxt-module "^0.13.5"
+    vuetify "^3.6.7"
+    vuetify-nuxt-module "^0.14.1"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.10.tgz", "@vectorx/nuxt@24.1.5-alpha.10":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.10.tgz#77ab73dd4446e01615ef3a125f38bc00182feafb"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.12.tgz", "@vectorx/nuxt@24.1.5-alpha.12":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.12.tgz#717bc57493075babbd05017e5541a560ee4fb369"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -3662,7 +3662,7 @@
     "@nuxt/webpack-builder" "3.11.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.5-alpha.10"
+    "@vectorx/core" "24.1.5-alpha.12"
     "@vee-validate/i18n" "^4.12.8"
     "@vee-validate/nuxt" "^4.12.8"
     "@vee-validate/rules" "^4.12.8"
@@ -3685,13 +3685,13 @@
     tippy.js "^6.3.7"
     vee-validate "^4.12.6"
     vite-plugin-compression2 "^1.1.0"
-    vue "^3.4.25"
+    vue "^3.4.27"
     vue-router "^4.3.2"
     vue-tsc "^2.0.14"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.10.tgz", "@vectorx/types@24.1.5-alpha.10":
-  version "24.1.5-alpha.10"
-  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.10.tgz#04065aca6efe2bddc7da98e8732181a8359e7823"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.12.tgz", "@vectorx/types@24.1.5-alpha.12":
+  version "24.1.5-alpha.12"
+  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.12.tgz#36346d5f957e8f4c1742da79906eba6c448bd9fa"
 
 "@vee-validate/i18n@^4.12.8":
   version "4.12.8"
@@ -12028,7 +12028,7 @@ vue-virtual-scroller@2.0.0-beta.8:
     vue-observe-visibility "^2.0.0-alpha.1"
     vue-resize "^2.0.0-alpha.1"
 
-vue@^3.4.21, vue@^3.4.25:
+vue@^3.4.21, vue@^3.4.27:
   version "3.4.27"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.27.tgz#40b7d929d3e53f427f7f5945386234d2854cc2a1"
   integrity sha512-8s/56uK6r01r1icG/aEOHqyMVxd1bkYcSe9j8HcKtr/xTOFWvnzIVTehNW+5Yt89f+DLBe4A569pnZLS5HzAMA==
@@ -12039,10 +12039,10 @@ vue@^3.4.21, vue@^3.4.25:
     "@vue/server-renderer" "3.4.27"
     "@vue/shared" "3.4.27"
 
-vuetify-nuxt-module@^0.13.5:
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/vuetify-nuxt-module/-/vuetify-nuxt-module-0.13.5.tgz#db1019f1b7472b5d3f67269dcd462586f7c43d71"
-  integrity sha512-sqlDB+e/cHoKSjLQZ5Vl4pV+SpM47TcTfna9oajb8q+RFogPdN1nUlYDyQF5LPNaLKvcInK7CPTCRjv6+2WRxA==
+vuetify-nuxt-module@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/vuetify-nuxt-module/-/vuetify-nuxt-module-0.14.1.tgz#a65b891a023f04a7cb422dbec595be86c9aa402a"
+  integrity sha512-rv7iFc0HrhFSO3JyWbFNXjuPuTfOx8unIdtTYat822vn5b9TVdZf5LffKv4fRrNgKEjmE/v9WT4yzxRVj3WIFA==
   dependencies:
     "@nuxt/kit" "^3.9.0"
     defu "^6.1.4"
@@ -12053,12 +12053,12 @@ vuetify-nuxt-module@^0.13.5:
     ufo "^1.5.3"
     unconfig "^0.3.11"
     vite-plugin-vuetify "^2.0.3"
-    vuetify "^3.5.13"
+    vuetify "^3.6.5"
 
-vuetify@3.6.3, vuetify@^3.5.13, vuetify@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.6.3.tgz#3818a9176198480302ec0aac359c47cb71a75f13"
-  integrity sha512-OBYYJYnNeUYA7kwrv8Rag1EBFbGWAQxJpp0s98U2KQ6SPU7MzzcrvNn7t69vcDbj7mR7Dcf9/jvFapfranXZvA==
+vuetify@3.6.7, vuetify@^3.6.5, vuetify@^3.6.7:
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.6.7.tgz#f120799ad35b156c48a877aac4633c2250e79903"
+  integrity sha512-oj7zrNbjKFlSS38449K9/ad9mc/o25bxuTFT9rs2AtSNnOA+BOLIVJCAPlmLGWoQGslPh80RzckXDedoifs+TQ==
 
 walker@^1.0.8:
   version "1.0.8"
