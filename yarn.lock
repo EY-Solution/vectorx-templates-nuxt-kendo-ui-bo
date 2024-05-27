@@ -3538,9 +3538,9 @@
     hookable "^5.5.3"
     unhead "1.9.10"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.16.tgz", "@vectorx/core@24.1.5-alpha.16":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.16.tgz#f549a2ff3fcb46917c65caa64630360c03993294"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.17.tgz", "@vectorx/core@24.1.5-alpha.17":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.17.tgz#277c525766a4a9e44da67f8c38c19ad635de6281"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3548,7 +3548,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.5-alpha.16"
+    "@vectorx/types" "24.1.5-alpha.17"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -3596,19 +3596,19 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.16.tgz":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.16.tgz#441e87796f92d17458356e69ff7ce119441eedb3"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.17.tgz":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.17.tgz#226a54a19a1d2f97290a5b9c784e2c939859d5df"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "^41.3.1"
     "@ckeditor/ckeditor5-font" "^41.3.1"
     "@ckeditor/ckeditor5-vue" "^5.0.1"
     "@types/ckeditor__ckeditor5-core" "^33.0.3"
-    "@vectorx/nuxt" "24.1.5-alpha.16"
+    "@vectorx/nuxt" "24.1.5-alpha.17"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.16.tgz":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.16.tgz#8bc2f8cf21847c2c15b5ffb27d40f6361721671b"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.17.tgz":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.17.tgz#ae23959852d416d56cce33e6283c027a9b88b7d1"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
     "@progress/kendo-drawing" "^1.20.1"
@@ -3634,22 +3634,22 @@
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.16.tgz":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.16.tgz#4eea8003777f4521c8509ded0aba36f59acd4412"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.17.tgz":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.17.tgz#566fe1084686bdf33c1e4e7d4d2ba5675752ae37"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.5-alpha.16"
+    "@vectorx/nuxt" "24.1.5-alpha.17"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
     vuetify "^3.6.7"
     vuetify-nuxt-module "^0.14.1"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.16.tgz", "@vectorx/nuxt@24.1.5-alpha.16":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.16.tgz#d53eb1db99243ed0cbf96909109da03e97fff2a5"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.17.tgz", "@vectorx/nuxt@24.1.5-alpha.17":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.17.tgz#b3e6a595f7e9555f1e652172337a2affa560a3c9"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -3662,7 +3662,7 @@
     "@nuxt/webpack-builder" "3.11.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.5-alpha.16"
+    "@vectorx/core" "24.1.5-alpha.17"
     "@vee-validate/i18n" "^4.12.8"
     "@vee-validate/nuxt" "^4.12.8"
     "@vee-validate/rules" "^4.12.8"
@@ -3689,9 +3689,9 @@
     vue-router "^4.3.2"
     vue-tsc "^2.0.14"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.16.tgz", "@vectorx/types@24.1.5-alpha.16":
-  version "24.1.5-alpha.16"
-  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.16.tgz#67a7eaf7d4e68f5d72b1a54f15b3882fe8d815f5"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.17.tgz", "@vectorx/types@24.1.5-alpha.17":
+  version "24.1.5-alpha.17"
+  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.17.tgz#371527ad63187ec7304554344f7b2eaee0d43690"
 
 "@vee-validate/i18n@^4.12.8":
   version "4.12.8"
