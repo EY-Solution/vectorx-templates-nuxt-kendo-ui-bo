@@ -1,0 +1,83 @@
+-- vectorx.dbo.TMP_COMPANY definition
+
+-- Drop table
+
+-- DROP TABLE vectorx.dbo.TMP_COMPANY;
+
+CREATE TABLE vectorx.dbo.TMP_COMPANY (
+	COMPANY_CD nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	COMPANY_NM nvarchar(40) COLLATE Korean_Wansung_CI_AS NULL,
+	COMPANY_NM_ABBR nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	SORT_ORDER int NULL,
+	USE_YN nvarchar(1) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_DATE datetime NULL,
+	LST_UPT_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	LST_UPT_DATE datetime NULL
+);
+
+-- vectorx.dbo.TMP_PLANT definition
+
+-- Drop table
+
+-- DROP TABLE vectorx.dbo.TMP_PLANT;
+
+CREATE TABLE vectorx.dbo.TMP_PLANT (
+	PLANT_CD nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	COMPANY_CD nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_NM nvarchar(40) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_NM_ABBR nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_TYPE nvarchar(1) COLLATE Korean_Wansung_CI_AS NULL,
+	CLOSING_TIME nvarchar(5) COLLATE Korean_Wansung_CI_AS NULL,
+	SORT_ORDER int NULL,
+	PLANT_ATTR1 nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_ATTR2 nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_ATTR3 nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_ATTR4 nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_ATTR5 nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	USE_YN nvarchar(1) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_USER nvarchar(40) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_DATE datetime NULL,
+	LST_UPT_USER nvarchar(40) COLLATE Korean_Wansung_CI_AS NULL,
+	LST_UPT_DATE datetime NULL,
+	LOCATION_CD nvarchar(4) COLLATE Korean_Wansung_CI_AS NULL
+);
+
+-- vectorx.dbo.TMP_PLANT_SECTION definition
+
+-- Drop table
+
+-- DROP TABLE vectorx.dbo.TMP_PLANT_SECTION;
+
+CREATE TABLE vectorx.dbo.TMP_PLANT_SECTION (
+	PLANT_CD nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_SECTION_CD nvarchar(3) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_SECTION_NM nvarchar(50) COLLATE Korean_Wansung_CI_AS NULL,
+	USE_YN nvarchar(1) COLLATE Korean_Wansung_CI_AS NULL,
+	LOCATION_CD nvarchar(4) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_DATE datetime NULL,
+	LST_UPT_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	LST_UPT_DATE datetime NULL
+);
+
+-- vectorx.dbo.TMP_PLANT_LOC definition
+
+-- Drop table
+
+-- DROP TABLE vectorx.dbo.TMP_PLANT_LOC;
+
+CREATE TABLE vectorx.dbo.TMP_PLANT_LOC (
+	PLANT_CD nvarchar(10) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_LOC_CD nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_LOC_NM nvarchar(50) COLLATE Korean_Wansung_CI_AS NULL,
+	USE_YN nvarchar(1) COLLATE Korean_Wansung_CI_AS NULL,
+	PLANT_SECTION_CD nvarchar(3) COLLATE Korean_Wansung_CI_AS NULL,
+	OPERATION_CD nvarchar(15) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	CREATE_DATE datetime NULL,
+	LST_UPT_USER nvarchar(20) COLLATE Korean_Wansung_CI_AS NULL,
+	LST_UPT_DATE datetime NULL,
+	PLANT_LOC_NO int NULL
+);
+
