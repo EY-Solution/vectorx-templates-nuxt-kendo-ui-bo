@@ -6,12 +6,6 @@ export default defineNuxtConfig({
       title: 'VectorX Node Management System with Kendo UI',
     },
   },
-  vite: {
-    // FIXME: remove property after v24.1.4
-    optimizeDeps: {
-      include: ['markdown-it-highlightjs/core'],
-    },
-  },
   devtools: {
     enabled: true,
   },
