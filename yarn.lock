@@ -2219,6 +2219,13 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
+"@progress/jszip-esm@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@progress/jszip-esm/-/jszip-esm-1.0.3.tgz#778e2845206e2370eb72ca8d5f32041ee0d9dbbb"
+  integrity sha512-qu5qeIlUsJX0Z2oi3Aax3gvfjKrrtVzQ2LIEhmw2CVWffZ0JvtifiomyJOc0ZFk7oEyEyrVvab97bqKkNCKvfQ==
+  dependencies:
+    "@progress/pako-esm" "^1.0.1"
+
 "@progress/kendo-data-query@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-data-query/-/kendo-data-query-1.7.0.tgz#d2d6ae61232415ae1c893bba25af5f48bb86f509"
@@ -2245,6 +2252,11 @@
   dependencies:
     "@progress/pako-esm" "^1.0.1"
 
+"@progress/kendo-file-saver@^1.1.0":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-file-saver/-/kendo-file-saver-1.1.1.tgz#4225affb7064fe9e12d3a89f36e00ab6c92deef0"
+  integrity sha512-mo0Cw3MLoLcx2bA+Ma/VAxkM9vHSJ4Sg0vgh6U1ZIvPXmnfO8Dgsdiv/475lafyju0kG8KOhl3bcVagCF71glQ==
+
 "@progress/kendo-inputs-common@^3.1.0":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@progress/kendo-inputs-common/-/kendo-inputs-common-3.1.1.tgz#bfea6793ed56871bc85f9f1dc247082afe8aa773"
@@ -2263,6 +2275,14 @@
   integrity sha512-HWxM6Ov1g0LvOQN9sp+3N1h+YpF0OKq7rWW2bqoJnkyHy8woC8Ve6ew6KmHdbeaKMgikVOYgyo5NTjef2j+gVQ==
   dependencies:
     jsonwebtoken "^9.0.2"
+
+"@progress/kendo-ooxml@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-ooxml/-/kendo-ooxml-1.9.0.tgz#ffb0ffb9056660867d52f1597a3ba789af1089ab"
+  integrity sha512-XkW23MU1snvNvn/hKFvRsrzrxJuRGeexbeXupouclqHJv8prhkFfAo8xlU7b+4bw362oI3eRXklvAPWdMYnA4w==
+  dependencies:
+    "@progress/jszip-esm" "^1.0.3"
+    "@progress/pako-esm" "^1.0.1"
 
 "@progress/kendo-popup-common@^1.6.1":
   version "1.9.2"
@@ -2325,157 +2345,166 @@
   dependencies:
     "@progress/kendo-theme-core" "8.0.1"
 
-"@progress/kendo-vue-animation@5.0.2", "@progress/kendo-vue-animation@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-animation/-/kendo-vue-animation-5.0.2.tgz#adc85aeb3d1e3add3b618b9956335935b337a951"
-  integrity sha512-ICoNVO+a9x9nrYY/BXB1B3OumUWunskh6YVu6eqX9dsYQIxL0sLbE4Y31INyq+tGWDlNdaaQKqoAynG0z73FVg==
+"@progress/kendo-vue-animation@5.1.0", "@progress/kendo-vue-animation@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-animation/-/kendo-vue-animation-5.1.0.tgz#4d38a64493d67e1a79144db3c6fbc33ee267145f"
+  integrity sha512-opMNJidSwKqblCzEPZI0RsUMJFKhz1qXJ7oDyxTdT99idu4rCPhphE6iMbTXi+UUV7zhIGBfac/Yifxw9nfMIQ==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-buttons@5.0.2", "@progress/kendo-vue-buttons@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-buttons/-/kendo-vue-buttons-5.0.2.tgz#ef8bed9c317d1afd49f8ab10ee1f0edb0f97dfb3"
-  integrity sha512-fKVLFsPCxv/YeDAulFXMBwMMkU3WWKjgZgdYOnuzx2H/EuXWE1E4gsd1kTNzC7uBRhq71MYbltdgFzb8eh0Yfw==
+"@progress/kendo-vue-buttons@5.1.0", "@progress/kendo-vue-buttons@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-buttons/-/kendo-vue-buttons-5.1.0.tgz#7b564e55b4c08018e416e125cfc55c00bbebaa9a"
+  integrity sha512-xS1qnf5ZdrtWwJzGw6k+1p9Gg2nnU3lQdx4M2O03HbSIBhqAKw3x4+B0eJpWuprMcK0VoDEsduuEAxhFJASPGw==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
-    "@progress/kendo-vue-popup" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
+    "@progress/kendo-vue-popup" "5.1.0"
 
-"@progress/kendo-vue-common@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-common/-/kendo-vue-common-5.0.2.tgz#6ba9bb6002399d1d5dd215a881cae56b50ee2f9b"
-  integrity sha512-MAiEmfFs4WkkO1fFYA1z2A1OcqRfCO11alY5R+QTXMhltKOEcanlrjG2tzVlMsyXUmRJ0ndvbiKli0cySWNv+g==
+"@progress/kendo-vue-common@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-common/-/kendo-vue-common-5.1.0.tgz#9c3d9ea39897325285c5005a6b855f2df314086c"
+  integrity sha512-meNOTRt3ezH/SOOyfa/ADc3uzt9Phjz0Renj8Z+76uF136miBwIaIKlHG8/ZBrCvEXmQaA1mg54jD3ZxkMhpdQ==
   dependencies:
     "@progress/kendo-draggable" "^3.0.1"
 
-"@progress/kendo-vue-data-tools@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-data-tools/-/kendo-vue-data-tools-5.0.2.tgz#5b8d6987f5951ed708d477c8daee39eaa13bb0a9"
-  integrity sha512-niD1An1v7gd8KnUWg98/EZBV8P3ncTyaUX9t3bMbSk6nW027+7YtfCRpuy2D4e9flQxL+9f5VGjXpG2P/C+zmw==
+"@progress/kendo-vue-data-tools@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-data-tools/-/kendo-vue-data-tools-5.1.0.tgz#c46d4f08fb5b19866b5df32d5e7a51a5ee74d1ea"
+  integrity sha512-8mu/eCv7SG1qRShdJFGB9H/KRZVrhYqs7E064zBfCzyiIvTdPBn646JqrAoNiTDw7neD3Lor4r4qdq02U4hlBQ==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-dateinputs@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dateinputs/-/kendo-vue-dateinputs-5.0.2.tgz#8a9986055305b2386c0e0c9352bfc7231693b746"
-  integrity sha512-bH9/2oqo2Zqdu7nDUThkK5YoSVAOY9AcWPO4kExG4JyEIMriPAcVnTw67uCYlpkztRtkPQch1gZ0W8bG6r6BYA==
+"@progress/kendo-vue-dateinputs@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dateinputs/-/kendo-vue-dateinputs-5.1.0.tgz#7a3f9a9ebf8128fc0571c99863ae73d44b235310"
+  integrity sha512-tBFFM8/ny3+tO1n2DrGBxBfLG2B7p5NswNlx6oQeVd2wGliasY7DIDwb2Iyd0DbszEyUAUI7tSVYg7t/mm9eUA==
   dependencies:
     "@progress/kendo-date-math" "1.5.13"
-    "@progress/kendo-vue-buttons" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
-    "@progress/kendo-vue-labels" "5.0.2"
-    "@progress/kendo-vue-popup" "5.0.2"
+    "@progress/kendo-vue-buttons" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
+    "@progress/kendo-vue-labels" "5.1.0"
+    "@progress/kendo-vue-popup" "5.1.0"
 
-"@progress/kendo-vue-dialogs@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dialogs/-/kendo-vue-dialogs-5.0.2.tgz#031509bf6b06216fee33c8bef609f3c62417cefe"
-  integrity sha512-HVeB70yzqnEDo29twgFKumzFOE4ypMo4r2DTEM3VCpDQFug8BWoP0VKaS2sMuW+OwfkhYQuL8kWXb74UjTNMIg==
+"@progress/kendo-vue-dialogs@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dialogs/-/kendo-vue-dialogs-5.1.0.tgz#f3bfb06887afeacf7ccdb4b36adfeeb02ab962e6"
+  integrity sha512-BdEPTZh7mQbl5f8uNEbcBVa3bZvzUpb+VneUCWY8+igGr+w+BEwRioHQkGlCorb6of0tjYqA+NsYWVMyqWPRHA==
   dependencies:
-    "@progress/kendo-vue-buttons" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-buttons" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-dropdowns@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dropdowns/-/kendo-vue-dropdowns-5.0.2.tgz#2d38c49584846b8391c2ceb0aaa4ee8d9b91af65"
-  integrity sha512-xzX9ZassBPSd4uTV579n/D4h9nn+pNAD2GUN/6NOfelQNtMtSwJKu5ttChgPn5X9D/YuOcSuV2+BqwKITxvrHA==
+"@progress/kendo-vue-dropdowns@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dropdowns/-/kendo-vue-dropdowns-5.1.0.tgz#5384fabd77d83bf420f99ff7f298558dfc4007ed"
+  integrity sha512-D/M2P7S5HuJrt7aygHdc+VNV6Tgg1L4G2X8kQC3yXgPZfB1IL+yHKtglM+qtuyOk5t83SR8A3S3H0vLa25lyEg==
   dependencies:
-    "@progress/kendo-vue-buttons" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
-    "@progress/kendo-vue-layout" "5.0.2"
-    "@progress/kendo-vue-popup" "5.0.2"
+    "@progress/kendo-vue-buttons" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
+    "@progress/kendo-vue-layout" "5.1.0"
+    "@progress/kendo-vue-popup" "5.1.0"
 
-"@progress/kendo-vue-form@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-form/-/kendo-vue-form-5.0.2.tgz#09f0bff03fc7c40428205083e369fe89f31e63ea"
-  integrity sha512-zOSVSNSTUww2Ya7JaDD2dZDeUZXVyO/zxVblsI3ajpyj/x5sjmQA0H8Zb9HrJ9h4UTGoLJDKISkwM1uIgKASaQ==
+"@progress/kendo-vue-excel-export@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-excel-export/-/kendo-vue-excel-export-5.1.0.tgz#37a6d2c3f8edac43ded761eb817cab196ab550f6"
+  integrity sha512-czOQr1O/XnZMDfT84d5bISpl36/Mzl0F/tGaLGTCGpYU9FzQwDZFke84OfFeGmRreJ+N9pzPBFiW6BsCG1dlDw==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-file-saver" "^1.1.0"
+    "@progress/kendo-ooxml" "^1.9.0"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-grid@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-grid/-/kendo-vue-grid-5.0.2.tgz#9061664b8885ccdc62992a499e63bb92802d0510"
-  integrity sha512-MtzlN/b3FdGZr2F78ZSWvU3YnpRLTTtR1xBS3EkNYhuUzLXSBdbKyWY4iANtgeMQ6x9V+kUlZOc9N8ZSC1WY/g==
+"@progress/kendo-vue-form@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-form/-/kendo-vue-form-5.1.0.tgz#d37613c45184fc77b0f7c24b06d22dcbddea1e5f"
+  integrity sha512-cWHnCAMRaLpmp8Ryv99VlfDuds156jQBK6FVVE0+eXjTIpOv1E5tmsSyApU63D/44IFTz3fJXIXrq++6eMGBJQ==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-indicators@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-indicators/-/kendo-vue-indicators-5.0.2.tgz#05abd1dd13365153c9d59204ed4d94e3ea240d28"
-  integrity sha512-S4R78zIqhzAxcHfvzM11/3ID7WYhlIAOv12PUwgbE9DQBrf9lMBjcQXMxSG8tPZdwgJ1af2G7C0VssHkiBhJkA==
+"@progress/kendo-vue-grid@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-grid/-/kendo-vue-grid-5.1.0.tgz#32f5c0fa09eb0901a3eb1ce586865e1058f894fb"
+  integrity sha512-ziI+158fN/B5L8tFyNsLkpc6ZEU42Zv73EpwO3LrdO0Yim8bQY8FOzaqWEr6/OJxdB6R/K4mVyky2y/CpiIXKA==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-inputs@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-inputs/-/kendo-vue-inputs-5.0.2.tgz#1eea52cc2902d9b63e8ba1dbb40f6f1c3dec6497"
-  integrity sha512-b0IaEZYk7qJdnzE4It+/zK4MNCkh3DAY40EkEkCwydwyLSBLQkweFv6bYZJfiKdnBZsgyEl0wuYbmsYb4rZUkQ==
+"@progress/kendo-vue-indicators@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-indicators/-/kendo-vue-indicators-5.1.0.tgz#ad057ab1a219da469b0b6dfd445433e41fe8159e"
+  integrity sha512-ppCs+t3O3iPXYq+1MLFGtMZMMeBToLOdotWRygacxcanQHT2jOL61hqgCYndjkuaOwz/s6h1j8PXWZBV63KBnQ==
+  dependencies:
+    "@progress/kendo-vue-common" "5.1.0"
+
+"@progress/kendo-vue-inputs@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-inputs/-/kendo-vue-inputs-5.1.0.tgz#ef1aab11428185cc2ee9d601574646cfc9e05343"
+  integrity sha512-CQVGQeB9+DPb0yrLYCryDaZCHKU6VfMyTsjlh4LX2mgkPWs1bYZ7Xx6gJKCjCX+Q8v5PopYsuiCRcmIzRpinEQ==
   dependencies:
     "@progress/kendo-inputs-common" "^3.1.0"
-    "@progress/kendo-vue-buttons" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
-    "@progress/kendo-vue-dialogs" "5.0.2"
-    "@progress/kendo-vue-labels" "5.0.2"
-    "@progress/kendo-vue-popup" "5.0.2"
+    "@progress/kendo-vue-buttons" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
+    "@progress/kendo-vue-dialogs" "5.1.0"
+    "@progress/kendo-vue-labels" "5.1.0"
+    "@progress/kendo-vue-popup" "5.1.0"
 
-"@progress/kendo-vue-intl@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-intl/-/kendo-vue-intl-5.0.2.tgz#6c708639fc8aa0d8269e26d3061994a0466f7498"
-  integrity sha512-im0cNLdK80rXT9uie2bnDeCFKzOS8oK2GMYa7st/IFFJ6c+Avjg1JpgBt1bSw4au6I3HcZ1AEvZYsO6O99VoMw==
+"@progress/kendo-vue-intl@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-intl/-/kendo-vue-intl-5.1.0.tgz#5777b67b0af333185547e7873fe086a4436b5895"
+  integrity sha512-gc4bmgX4jQfKv5Tx8M/OOtFxdsq+SjNICLyiUVsFbQ0ZGe4+HsXJDTKtuQQ0RYQQ8wX+H1HTKa/sx2ecHvIz6A==
   dependencies:
     "@progress/kendo-intl" "^3.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-labels@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-labels/-/kendo-vue-labels-5.0.2.tgz#7ee3734884a0aef96fad605ff6cca8e2ff2ca4bc"
-  integrity sha512-go3mLmKa1Imh1m/oAKAhBi2Rp5wt426znGr18xC/SdUvPRybNKU3i05b0iyE6kC7p/LrbEzCQwu2bM9l8UFZ2w==
+"@progress/kendo-vue-labels@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-labels/-/kendo-vue-labels-5.1.0.tgz#2b8c352cc526445c2570e039ce606a83dab954ad"
+  integrity sha512-y7wbEqG3Ao1Q1ggYIRYXKor+WAW7cHt0LlnoZ9pHxN0aZYeLj447Tv0fao4Qy+UXFwKyQG/PlWWUcnG5O303dg==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-layout@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-layout/-/kendo-vue-layout-5.0.2.tgz#db0738cf781ad2714764551889cf38d89cbac99d"
-  integrity sha512-Z4Fm3tygt6nRvkIrrnHGxV8D/1hEsKOlOBAVv61zxOrvYi+WY92OT4nxoWr4fEloKtwZcWwk6IpFpCqSYdTAXA==
+"@progress/kendo-vue-layout@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-layout/-/kendo-vue-layout-5.1.0.tgz#ff5cadabeab88f652141164776f4a778a921c0e2"
+  integrity sha512-EJY+yT8yzHOO0LhUBXMFmuUovYE3eJGDreGLriqS5NVSg0+nQhdegw8YAZFGc7G8N9WqZMxEotWQ0vz75w1LPw==
   dependencies:
-    "@progress/kendo-vue-animation" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
-    "@progress/kendo-vue-popup" "5.0.2"
+    "@progress/kendo-vue-animation" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
+    "@progress/kendo-vue-popup" "5.1.0"
 
-"@progress/kendo-vue-listbox@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-listbox/-/kendo-vue-listbox-5.0.2.tgz#718aaa934c8f1d1b22732feae008ca608771b639"
-  integrity sha512-AO8lt1nVgzZzSG4agezUNg4nfNHN0/4asQhL4ouFEHBVqfSapTUcPxN76Ajn8jin88Z4OugfvI9oCxUk51I6Zg==
+"@progress/kendo-vue-listbox@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-listbox/-/kendo-vue-listbox-5.1.0.tgz#a42551d2cfd37674a77bd3dd7ab9702f86553eb2"
+  integrity sha512-vOKhJW2r7fbQ2ozx6J4WZTWvVk3/htuvxR2/UH0zlPnRnsSVpEoFhG6dNxyYSHjYlYULxYwBxZGPexgbmyM1Kg==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-popup@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-popup/-/kendo-vue-popup-5.0.2.tgz#20cd62efffd274f92ae70cb116155fd7aac7af21"
-  integrity sha512-AVTXjdRbNOy8wzyaMjNOGywdN6aMdMvUofYZmeKLOPVZC5IkeInVc0ZVw0fn9rF2cfacSBoV7868Dx84KeIXSg==
+"@progress/kendo-vue-popup@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-popup/-/kendo-vue-popup-5.1.0.tgz#153d6866e7538a2e08d8b0ba0ec16578e32992dc"
+  integrity sha512-/D6c46WwVlMe5fwOeoO1azL+yW+G6wRcU4K/yMNsH2U76QN83zpUigo6eJDjoqeEBEjhDBUXR7J2N+xauufJ8g==
   dependencies:
     "@progress/kendo-popup-common" "^1.6.1"
-    "@progress/kendo-vue-animation" "5.0.2"
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-animation" "5.1.0"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-progressbars@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-progressbars/-/kendo-vue-progressbars-5.0.2.tgz#4b0da205cecee6cafdbf46dab0628cededdc33ae"
-  integrity sha512-pk13A/0SBAcbe45veyWMtUqvmJ8hd6CNsEq9tvHOP4HWWL/Q8BvHeO3psnW3Sk+B09liHgYngCCDU0V52HYwkA==
+"@progress/kendo-vue-progressbars@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-progressbars/-/kendo-vue-progressbars-5.1.0.tgz#2c3dd54ffa2b2f57f18a94d59e808d95649b1902"
+  integrity sha512-pQr+j1O0IPEbvgQYeJp/OQ4w6Z7VR3aOKsYFR08qrcRCAPDt7t634YxEOw7drpQPlBGfAYY0HQX5e5zr81NdYg==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-treelist@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-treelist/-/kendo-vue-treelist-5.0.2.tgz#ba78ee50e0d1374ece8bc584340c7a2411f9753c"
-  integrity sha512-iuw6+KpZ013Dk26hQX8NLznT62+2AKQ+cGJ5GI/PXE2Xzrw45B0Q5KJ/28yNiG7ro0giMeDJd98NACmBDviOLA==
+"@progress/kendo-vue-treelist@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-treelist/-/kendo-vue-treelist-5.1.0.tgz#3a41f42265683e04e764f0a6d7f18af883039536"
+  integrity sha512-iVx9UAi4LWAg5bkgCWwrBPvHcBS5ibkpe8AWTOylDzLr0Ah+mR8AzSpEqBhPxmf+ST4mU60/J1eZr8ksKg86QQ==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
-"@progress/kendo-vue-treeview@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-treeview/-/kendo-vue-treeview-5.0.2.tgz#38fd90fa18db90133b3cef252fbaf3424ab5b940"
-  integrity sha512-LbZBbA+wBUWpshph0Hwsd2ElrlLgjawKuuASkLATaZMMBac9mb0pCpxDWRJ84z7Px9QM35BPG2nhbmFyH3fWFQ==
+"@progress/kendo-vue-treeview@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-treeview/-/kendo-vue-treeview-5.1.0.tgz#08bbe2a4961f69a73a9acf3116ec4398b67f9ae2"
+  integrity sha512-nw0v2EUs8iWxv76Ox/UxUeAZq8ZnuJLISqvPVkm2SuIa2chkWCFYJ9mk2puEFGUyVUZ/g+8kG76u/vORQT7Bkw==
   dependencies:
-    "@progress/kendo-vue-common" "5.0.2"
+    "@progress/kendo-vue-common" "5.1.0"
 
 "@progress/pako-esm@^1.0.1":
   version "1.0.1"
@@ -3547,9 +3576,9 @@
     hookable "^5.5.3"
     unhead "1.9.10"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.28.tgz", "@vectorx/core@24.1.5-alpha.28":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.28.tgz#394d1384647cc9c2aa143d80b6bc444c42fb9eb4"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.29.tgz", "@vectorx/core@24.1.5-alpha.29":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.29.tgz#db1f88a1e9eda852a436ee14f84a2da14c9ae775"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3557,7 +3586,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.5-alpha.28"
+    "@vectorx/types" "24.1.5-alpha.29"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -3605,19 +3634,19 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.28.tgz":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.28.tgz#2c2863628396cdc88d27e2dbfc82d63fc8f68800"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.29.tgz":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.29.tgz#5f49d5ce308afd9c1274a6aed095af3a2bb32710"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "^41.3.1"
     "@ckeditor/ckeditor5-font" "^41.3.1"
     "@ckeditor/ckeditor5-vue" "^5.0.1"
     "@types/ckeditor__ckeditor5-core" "^33.0.3"
-    "@vectorx/nuxt" "24.1.5-alpha.28"
+    "@vectorx/nuxt" "24.1.5-alpha.29"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.28.tgz":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.28.tgz#ffa1a3259380b8f8e72cea4b27fd36acff684bed"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.29.tgz":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.29.tgz#a4d5eda93ef5c27afa46e4092ddafb621153bf34"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
     "@progress/kendo-drawing" "^1.20.1"
@@ -3627,40 +3656,41 @@
     "@progress/kendo-theme-default" "^8.0.1"
     "@progress/kendo-theme-fluent" "^8.0.1"
     "@progress/kendo-theme-material" "^8.0.1"
-    "@progress/kendo-vue-animation" "^5.0.2"
-    "@progress/kendo-vue-buttons" "^5.0.2"
-    "@progress/kendo-vue-data-tools" "^5.0.2"
-    "@progress/kendo-vue-dateinputs" "^5.0.2"
-    "@progress/kendo-vue-dropdowns" "^5.0.2"
-    "@progress/kendo-vue-form" "^5.0.2"
-    "@progress/kendo-vue-grid" "^5.0.2"
-    "@progress/kendo-vue-indicators" "^5.0.2"
-    "@progress/kendo-vue-inputs" "^5.0.2"
-    "@progress/kendo-vue-intl" "^5.0.2"
-    "@progress/kendo-vue-listbox" "^5.0.2"
-    "@progress/kendo-vue-progressbars" "^5.0.2"
-    "@progress/kendo-vue-treelist" "^5.0.2"
-    "@progress/kendo-vue-treeview" "^5.0.2"
+    "@progress/kendo-vue-animation" "^5.1.0"
+    "@progress/kendo-vue-buttons" "^5.1.0"
+    "@progress/kendo-vue-data-tools" "^5.1.0"
+    "@progress/kendo-vue-dateinputs" "^5.1.0"
+    "@progress/kendo-vue-dropdowns" "^5.1.0"
+    "@progress/kendo-vue-excel-export" "^5.1.0"
+    "@progress/kendo-vue-form" "^5.1.0"
+    "@progress/kendo-vue-grid" "^5.1.0"
+    "@progress/kendo-vue-indicators" "^5.1.0"
+    "@progress/kendo-vue-inputs" "^5.1.0"
+    "@progress/kendo-vue-intl" "^5.1.0"
+    "@progress/kendo-vue-listbox" "^5.1.0"
+    "@progress/kendo-vue-progressbars" "^5.1.0"
+    "@progress/kendo-vue-treelist" "^5.1.0"
+    "@progress/kendo-vue-treeview" "^5.1.0"
     cldr-core "^45.0.0"
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.28.tgz":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.28.tgz#cd4bb8dda27b702b62cd62db93d7637ef188d594"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.29.tgz":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.29.tgz#2d05600c3f4a1c76bff25ea15222a5be51588657"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.5-alpha.28"
+    "@vectorx/nuxt" "24.1.5-alpha.29"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
     vuetify "^3.6.7"
     vuetify-nuxt-module "^0.14.1"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.28.tgz", "@vectorx/nuxt@24.1.5-alpha.28":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.28.tgz#c30d1f54dcca2df4edb171468a4e9d88c870d51e"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.29.tgz", "@vectorx/nuxt@24.1.5-alpha.29":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.29.tgz#c7ecc2838450bca15eb106eba9733425ed900c66"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -3673,7 +3703,7 @@
     "@nuxt/webpack-builder" "3.11.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.5-alpha.28"
+    "@vectorx/core" "24.1.5-alpha.29"
     "@vee-validate/i18n" "^4.12.8"
     "@vee-validate/nuxt" "^4.12.8"
     "@vee-validate/rules" "^4.12.8"
@@ -3700,9 +3730,9 @@
     vue-router "^4.3.2"
     vue-tsc "^2.0.14"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.28.tgz", "@vectorx/types@24.1.5-alpha.28":
-  version "24.1.5-alpha.28"
-  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.28.tgz#adafeedfe319cf5328bcb2f28f4b454b1a3250c4"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.29.tgz", "@vectorx/types@24.1.5-alpha.29":
+  version "24.1.5-alpha.29"
+  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.29.tgz#f6d36ca407c06c5b44286479cd077980e4402970"
 
 "@vee-validate/i18n@^4.12.8":
   version "4.12.8"
@@ -10978,7 +11008,16 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -11010,7 +11049,14 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -12290,7 +12336,7 @@ word-wrap@^1.2.5:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -12303,6 +12349,15 @@ wrap-ansi@^6.0.1:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
