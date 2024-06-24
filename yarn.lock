@@ -3972,9 +3972,9 @@
     hookable "^5.5.3"
     unhead "1.9.14"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.38.tgz", "@vectorx/core@24.1.5-alpha.38":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.38.tgz#28e050ceb53357ab67a822aa43a148f06333156b"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.5-alpha.39.tgz", "@vectorx/core@24.1.5-alpha.39":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-core-v24.1.5-alpha.39.tgz#ab2955ffcf967418fb1bc505d5acc3163c52815d"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3982,7 +3982,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.5-alpha.38"
+    "@vectorx/types" "24.1.5-alpha.39"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -4030,19 +4030,19 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.38.tgz":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.38.tgz#f059e6d55793d9b21308840109c69850bfb51e93"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.39.tgz":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.5-alpha.39.tgz#0295a7aa1c87351ba549102534067feb3d6b4487"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "^41.3.1"
     "@ckeditor/ckeditor5-font" "^41.3.1"
     "@ckeditor/ckeditor5-vue" "^5.0.1"
     "@types/ckeditor__ckeditor5-core" "^33.0.3"
-    "@vectorx/nuxt" "24.1.5-alpha.38"
+    "@vectorx/nuxt" "24.1.5-alpha.39"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.38.tgz":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.38.tgz#907f2279e5710f667420dca93713ae165cc4bd7f"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.39.tgz":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.5-alpha.39.tgz#90fab0465ff4df0fbf6babb2996bf5ec6d5c9a1b"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
     "@progress/kendo-drawing" "^1.20.1"
@@ -4070,22 +4070,22 @@
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.38.tgz":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.38.tgz#dbd3ac2ae8598ae6c8a77a5155e51c57e50a10fe"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.39.tgz":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.5-alpha.39.tgz#3c5fe0b9a17c99cf6b7c62d94780a2bdc9a1f77d"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.5-alpha.38"
+    "@vectorx/nuxt" "24.1.5-alpha.39"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
     vuetify "^3.6.10"
     vuetify-nuxt-module "^0.14.1"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.38.tgz", "@vectorx/nuxt@24.1.5-alpha.38":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.38.tgz#a04ec14324f352b7bb45faace6b13faec6b67a80"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.5-alpha.39.tgz", "@vectorx/nuxt@24.1.5-alpha.39":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.5-alpha.39.tgz#b88f1d3a0d04f32365e782a627193a94d88a938d"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -4097,7 +4097,7 @@
     "@nuxt/webpack-builder" "3.12.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.5-alpha.38"
+    "@vectorx/core" "24.1.5-alpha.39"
     "@vee-validate/i18n" "^4.13.1"
     "@vee-validate/nuxt" "^4.13.1"
     "@vee-validate/rules" "^4.13.1"
@@ -4124,9 +4124,9 @@
     vue-router "^4.3.3"
     vue-tsc "^2.0.14"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.38.tgz", "@vectorx/types@24.1.5-alpha.38":
-  version "24.1.5-alpha.38"
-  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.38.tgz#039f820933071540d85b7bd1897e4b71ac77bbba"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.5-alpha.39.tgz", "@vectorx/types@24.1.5-alpha.39":
+  version "24.1.5-alpha.39"
+  resolved "./.vectorx/vectorx-types-v24.1.5-alpha.39.tgz#9771c7c8f5d74fefcf9ea81f54b5584b972f72de"
 
 "@vee-validate/i18n@^4.13.1":
   version "4.13.1"
@@ -11561,7 +11561,16 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-"string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -11593,7 +11602,14 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -12896,7 +12912,7 @@ word-wrap@^1.2.5:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -12909,6 +12925,15 @@ wrap-ansi@^6.0.1:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
