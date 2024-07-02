@@ -3,3 +3,5 @@ node_modules
 .output
 .nuxt
 *.js
+__tests__
+*.d.ts
