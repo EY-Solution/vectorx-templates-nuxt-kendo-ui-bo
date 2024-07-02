@@ -19,6 +19,8 @@
     "powermode.combo.location": "off",
     "typescript.tsdk": "node_modules\\typescript\\lib",
     "volar.completion.preferredAttrNameCase": "auto-camel",
-    "vue.complete.casing.props": "autoCamel"
+    "vue.complete.casing.props": "autoCamel",
+    "liveServer.settings.root": "/dist",
+    "liveServer.settings.port": 21003
   }
 }
