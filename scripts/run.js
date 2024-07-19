@@ -6,5 +6,7 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 
+const executionPath = process.argv[2]
+
 register('@std/esm', pathToFileURL('./'))
-// import('./install.mjs')
+import(executionPath)
