@@ -67,6 +67,22 @@ export default defineNuxtConfig({
           },
         },
       },
+      samples: {
+        additionalMenus: [
+          {
+            icon: 'mdi-folder-outline',
+            title: 'Project samples',
+            items: [
+              {
+                title: 'API Exception Message',
+                icon: 'mdi-message-badge-outline',
+                componentPath: '~/components/samples/exception.vue',
+                items: [],
+              },
+            ],
+          },
+        ],
+      },
     },
   },
 })
