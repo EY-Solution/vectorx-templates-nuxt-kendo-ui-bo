@@ -1,5 +1,5 @@
 <template>
-  <VxManagementApp :language="language" :locale="locale" />
+  <VxManagementApp :language="language" :locale="locale"> </VxManagementApp>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
