@@ -1,5 +1,7 @@
 <template>
-  <VxManagementApp :language="language" :locale="locale"> </VxManagementApp>
+  <VxManagementApp :language="language" :locale="locale">
+    <template #loading-bar><LoadingBar /></template>
+  </VxManagementApp>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
