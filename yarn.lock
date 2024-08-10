@@ -2759,10 +2759,10 @@
   dependencies:
     "@progress/pako-esm" "^1.0.1"
 
-"@progress/kendo-base-components-vue-wrapper@2024.2.514":
-  version "2024.2.514"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-base-components-vue-wrapper/-/kendo-base-components-vue-wrapper-2024.2.514.tgz#c30b3af69803cd8f742db077b9cd6f3edc739a44"
-  integrity sha512-S0HrzA8QvZWTKxSQ/RQwsLZ8O2ESBP8JTETIArmTObEpnGuSSz6e4cb6H8p+v+84UrzkN5KWkmSPUigTHo6p9Q==
+"@progress/kendo-charts@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-charts/-/kendo-charts-2.4.1.tgz#7901f17168a165b05c93cc167cf3afdf98dd6a48"
+  integrity sha512-s2h/PMEMUREnfusdpMGBhEeVlQIzc49lG0yJqPAidjVpHEkWHStdetXuG2SlyiDF72mcEcff7s41dlHJzviPUg==
 
 "@progress/kendo-data-query@^1.7.0":
   version "1.7.0"
@@ -2777,13 +2777,6 @@
   integrity sha512-uMVIbEEs7nyn4IeWXuMdV7lNGfrWgYheXiC2EDx6lpGG9s29QpUmn3NtnAcOOOHWj33/O9IwLIRAcEiFP/7DiA==
   dependencies:
     tslib "^1.7.0"
-
-"@progress/kendo-diagram-vue-wrapper@^2024.2.514":
-  version "2024.2.514"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-diagram-vue-wrapper/-/kendo-diagram-vue-wrapper-2024.2.514.tgz#78e1634f8e95ac97ab91d739811730ece452085f"
-  integrity sha512-wPVyogRZbK//CsT7e9JLhr9QYJNsZtNI7Xr8+ThuB3KSCCvuQTAizAntQMjtzyNN2qQzKw3nZLIxwrfgsoXTxg==
-  dependencies:
-    "@progress/kendo-base-components-vue-wrapper" "2024.2.514"
 
 "@progress/kendo-draggable@^3.0.1":
   version "3.1.0"
@@ -2897,6 +2890,13 @@
   dependencies:
     "@progress/kendo-vue-common" "5.1.0"
 
+"@progress/kendo-vue-animation@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-animation/-/kendo-vue-animation-5.2.0.tgz#ad84af25eda59753afb388d505a59d70bfe4ac69"
+  integrity sha512-OyynhnndNJVtWVmMumzLe5bLaPyxPbSbJcddhABOu7j6ASlYKT7y1QVp8fflXkpQuA+R+wW35FGtJE87kmCBUA==
+  dependencies:
+    "@progress/kendo-vue-common" "5.2.0"
+
 "@progress/kendo-vue-buttons@5.1.0", "@progress/kendo-vue-buttons@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-vue-buttons/-/kendo-vue-buttons-5.1.0.tgz#7b564e55b4c08018e416e125cfc55c00bbebaa9a"
@@ -2905,10 +2905,26 @@
     "@progress/kendo-vue-common" "5.1.0"
     "@progress/kendo-vue-popup" "5.1.0"
 
+"@progress/kendo-vue-charts@^5.1.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-charts/-/kendo-vue-charts-5.2.0.tgz#fc726c46943f0b7099a6a846e401c54fcfaa7ad8"
+  integrity sha512-5D5ClQaz3VMqtsu3yL/k04PV+NQNrc/ccpZhKasn9JA9Wtm7eFLScIMuRhiMEM3RpeSM+ihDuCH7ACRmQSQomQ==
+  dependencies:
+    "@progress/kendo-charts" "2.4.1"
+    "@progress/kendo-vue-common" "5.2.0"
+    "@progress/kendo-vue-popup" "5.2.0"
+
 "@progress/kendo-vue-common@5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-vue-common/-/kendo-vue-common-5.1.0.tgz#9c3d9ea39897325285c5005a6b855f2df314086c"
   integrity sha512-meNOTRt3ezH/SOOyfa/ADc3uzt9Phjz0Renj8Z+76uF136miBwIaIKlHG8/ZBrCvEXmQaA1mg54jD3ZxkMhpdQ==
+  dependencies:
+    "@progress/kendo-draggable" "^3.0.1"
+
+"@progress/kendo-vue-common@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-common/-/kendo-vue-common-5.2.0.tgz#a0e96541fbb60c69e69d265439c04f41813f5f62"
+  integrity sha512-H/W53sy4BhPHWkRWIYT3ajORF6+USfEClng17YEwQaEhHxSzn7iIwTszUvTeq8R73agofm3kk5zawAJM+A38Yg==
   dependencies:
     "@progress/kendo-draggable" "^3.0.1"
 
@@ -3029,6 +3045,15 @@
     "@progress/kendo-popup-common" "^1.6.1"
     "@progress/kendo-vue-animation" "5.1.0"
     "@progress/kendo-vue-common" "5.1.0"
+
+"@progress/kendo-vue-popup@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-popup/-/kendo-vue-popup-5.2.0.tgz#77e7476dbb9840c9a4cb40aa45621304766ce5c7"
+  integrity sha512-dEvSo/i6vQ1vKrzHGogGf/6PD8OD+fbZ+TEC3wFinwaBsRNN9jXkgNG2r3I/585OcEw0JnoxiHpG0qoVGLWaOQ==
+  dependencies:
+    "@progress/kendo-popup-common" "^1.6.1"
+    "@progress/kendo-vue-animation" "5.2.0"
+    "@progress/kendo-vue-common" "5.2.0"
 
 "@progress/kendo-vue-progressbars@^5.1.0":
   version "5.1.0"
@@ -3937,9 +3962,9 @@
     hookable "^5.5.3"
     unhead "1.9.14"
 
-"@vectorx/core@./.vectorx/vectorx-core-v24.1.6-alpha.10.tgz", "@vectorx/core@24.1.6-alpha.10":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-core-v24.1.6-alpha.10.tgz#a6d5f5b58801321e6af172805ba135658ffcf437"
+"@vectorx/core@./.vectorx/vectorx-core-v24.1.6-alpha.11.tgz", "@vectorx/core@24.1.6-alpha.11":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-core-v24.1.6-alpha.11.tgz#bde31780b51a78e0e08d9a29677941acbde08ed7"
   dependencies:
     "@howiefh/ant-path-matcher" "^0.0.4"
     "@refactorjs/http-proxy" "^0.1.0"
@@ -3947,7 +3972,7 @@
     "@types/inquirer" "^8.0.0"
     "@types/jest" "^28.1.6"
     "@types/shelljs" "^0.8.11"
-    "@vectorx/types" "24.1.6-alpha.10"
+    "@vectorx/types" "24.1.6-alpha.11"
     ant-path-matcher "^0.0.5"
     axios "^1.6.8"
     axios-retry "^4.1.0"
@@ -3994,21 +4019,20 @@
     winston "^3.13.0"
     winston-daily-rotate-file "^5.0.0"
 
-"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.6-alpha.10.tgz":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.6-alpha.10.tgz#5c47eeece5f5c9479f9de74913bb0579b4dd2cc1"
+"@vectorx/nuxt-ckeditor5@./.vectorx/vectorx-nuxt-ckeditor5-v24.1.6-alpha.11.tgz":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-nuxt-ckeditor5-v24.1.6-alpha.11.tgz#e732e252f1ec9b4e14fa6d2e3581c838d2765dd6"
   dependencies:
     "@ckeditor/ckeditor5-build-classic" "42.0.0"
     "@ckeditor/ckeditor5-font" "42.0.0"
     "@ckeditor/ckeditor5-vue" "5.1.0"
-    "@vectorx/nuxt" "24.1.6-alpha.10"
+    "@vectorx/nuxt" "24.1.6-alpha.11"
 
-"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.6-alpha.10.tgz":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.6-alpha.10.tgz#d61d89f53c7d623b5050193794141ef8ccc96805"
+"@vectorx/nuxt-kendo-ui@./.vectorx/vectorx-nuxt-kendo-ui-v24.1.6-alpha.11.tgz":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-nuxt-kendo-ui-v24.1.6-alpha.11.tgz#01b438933d7a92b000f9de6eba2f7e03ee376825"
   dependencies:
     "@progress/kendo-data-query" "^1.7.0"
-    "@progress/kendo-diagram-vue-wrapper" "^2024.2.514"
     "@progress/kendo-drawing" "^1.20.1"
     "@progress/kendo-licensing" "^1.3.5"
     "@progress/kendo-svg-icons" "^3.0.0"
@@ -4018,6 +4042,7 @@
     "@progress/kendo-theme-material" "^8.2.0"
     "@progress/kendo-vue-animation" "^5.1.0"
     "@progress/kendo-vue-buttons" "^5.1.0"
+    "@progress/kendo-vue-charts" "^5.1.0"
     "@progress/kendo-vue-data-tools" "^5.1.0"
     "@progress/kendo-vue-dateinputs" "^5.1.0"
     "@progress/kendo-vue-dropdowns" "^5.1.0"
@@ -4036,22 +4061,22 @@
     cldr-dates-full "^45.0.0"
     cldr-numbers-full "^45.0.0"
 
-"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.6-alpha.10.tgz":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.6-alpha.10.tgz#55016dd54758e59ac311e8811430c43933ce26e6"
+"@vectorx/nuxt-vuetify@./.vectorx/vectorx-nuxt-vuetify-v24.1.6-alpha.11.tgz":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-nuxt-vuetify-v24.1.6-alpha.11.tgz#dc847e5cc99b06cbc6cb1732f7dd8ce663eb8c99"
   dependencies:
     "@fortawesome/fontawesome-free" "^6.5.2"
     "@mdi/font" "^7.4.47"
-    "@vectorx/nuxt" "24.1.6-alpha.10"
+    "@vectorx/nuxt" "24.1.6-alpha.11"
     "@vuepic/vue-datepicker" "8.5.0"
     font-awesome "4.7.0"
     splitpanes "^3.1.5"
     vuetify "^3.6.10"
     vuetify-nuxt-module "^0.14.1"
 
-"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.6-alpha.10.tgz", "@vectorx/nuxt@24.1.6-alpha.10":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-nuxt-v24.1.6-alpha.10.tgz#ebd2e15db3d21871f6dc25720cc7391bec82f934"
+"@vectorx/nuxt@./.vectorx/vectorx-nuxt-v24.1.6-alpha.11.tgz", "@vectorx/nuxt@24.1.6-alpha.11":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-nuxt-v24.1.6-alpha.11.tgz#c4ea734c338f57c63dda397e40ccc9df24fdbefa"
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.2.2"
@@ -4063,7 +4088,7 @@
     "@nuxt/webpack-builder" "3.12.2"
     "@nuxtjs/i18n" "=8.0.0-beta.10"
     "@pinia/nuxt" "0.5.1"
-    "@vectorx/core" "24.1.6-alpha.10"
+    "@vectorx/core" "24.1.6-alpha.11"
     "@vee-validate/i18n" "^4.13.1"
     "@vee-validate/nuxt" "^4.13.1"
     "@vee-validate/rules" "^4.13.1"
@@ -4090,9 +4115,9 @@
     vue-router "^4.3.3"
     vue-tsc "^2.0.24"
 
-"@vectorx/types@./.vectorx/vectorx-types-v24.1.6-alpha.10.tgz", "@vectorx/types@24.1.6-alpha.10":
-  version "24.1.6-alpha.10"
-  resolved "./.vectorx/vectorx-types-v24.1.6-alpha.10.tgz#53ec92962d0531f97878df29ccc61a7a38e9d629"
+"@vectorx/types@./.vectorx/vectorx-types-v24.1.6-alpha.11.tgz", "@vectorx/types@24.1.6-alpha.11":
+  version "24.1.6-alpha.11"
+  resolved "./.vectorx/vectorx-types-v24.1.6-alpha.11.tgz#720c1e58c457333a0e3c9a052b009ead1e15fe9a"
 
 "@vee-validate/i18n@^4.13.1":
   version "4.13.1"
