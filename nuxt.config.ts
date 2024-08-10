@@ -79,6 +79,11 @@ export default defineNuxtConfig({
                 componentPath: '~/components/samples/exception.vue',
                 items: [],
               },
+              {
+                title: 'Date Range Picker',
+                icon: 'mdi-calendar-range',
+                componentPath: '~/components/samples/range-picker.vue',
+              },
             ],
           },
         ],
