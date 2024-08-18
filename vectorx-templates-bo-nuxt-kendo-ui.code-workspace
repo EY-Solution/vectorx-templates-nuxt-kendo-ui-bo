@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "path": "."
-    }
+      "path": ".",
+    },
   ],
   "settings": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -21,6 +21,7 @@
     "volar.completion.preferredAttrNameCase": "auto-camel",
     "vue.complete.casing.props": "autoCamel",
     "liveServer.settings.root": "/dist",
-    "liveServer.settings.port": 21003
-  }
+    "liveServer.settings.port": 21003,
+    "files.eol": "\n",
+  },
 }
